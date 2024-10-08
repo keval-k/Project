@@ -1,0 +1,65 @@
+label {
+  display: block;
+  margin-top: 10px;
+  color: #fff; /* Label color */
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 50%; /* Make inputs full-width */
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: rgba(42, 71, 94, 0.7); /* Glassmorphism color with transparency */
+  color: #fff; /* Text color */
+  backdrop-filter: blur(8px); /* Background blur */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+}
+
+input:focus {
+  outline: none; /* Remove default outline */
+  border: 1px solid rgba(255, 255, 255, 0.7); /* Darker border on focus */
+  background: rgba(42, 71, 94, 0.9); /* Darker background on focus */
+}
+
+form button {
+  background: rgba(39, 123, 202, 0.9); /* Button background */
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins", sans-serif; /* Ensure fallback */
+  border-radius: 4px;
+  cursor: pointer;
+  width: 30%; /* Match input width */
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background: rgba(39, 123, 202, 1); /* Darken on hover */
+}
+
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  padding: 20px;
+
+  background: rgba(42, 71, 94, 0.504);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+  border: 1px solid rgba(42, 71, 94, 0.601);
+}
+
+h3 {
+  margin-bottom: 20px;
+  color: #fff; /* Title color */
+}
+
+.error {
+  color: red; /* Error message color */
+  margin-top: 10px;
+}

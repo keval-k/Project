@@ -1,0 +1,59 @@
+.game-detail-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full height of the viewport */
+    background-color: #2a475e; /* Darker background for contrast */
+    padding: 20px;
+  }
+  
+  .card {
+    background: rgba(42, 71, 94, 0.504);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(42, 71, 94, 0.601);
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 12px; /* Match the card border radius */
+    border-top-right-radius: 12px; /* Match the card border radius */
+  }
+  
+  .card-body {
+    padding: 20px; /* Add some padding inside the card */
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Larger title */
+    color: #2a475e; /* Title color matching the theme */
+  }
+  
+  .card-text {
+    font-size: 1.1rem; /* Slightly larger text for details */
+    margin: 5px 0; /* Spacing between text items */
+    color: #333; /* Darker text color for readability */
+  }
+  
+  button {
+    margin-top: 15px; /* Space above button */
+    background-color: #007bff; /* Primary button color */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded button corners */
+    padding: 10px 20px; /* Button padding */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darken on hover */
+  }
+  
+  *{
+    -webkit-text-fill-color: white;
+  }

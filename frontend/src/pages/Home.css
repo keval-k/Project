@@ -1,0 +1,19 @@
+.Home {
+  margin-top: 20px; /* Add some spacing at the top */
+  display: flex; /* Use flex for the container */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: flex-start; /* Align items to the start */
+}
+
+.game-details {
+  display: flex; /* Use flex for the game details */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center content within the card */
+  width: 100%; /* Ensure the game details take full width */
+}
+
+.card {
+  width: 100%; /* Ensure card takes full width of the column */
+  height: 100%; /* Make cards the same height */
+}
+

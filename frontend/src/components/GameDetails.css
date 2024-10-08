@@ -1,0 +1,60 @@
+/* Existing styles */
+.game-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-title {
+  color: #ffffff; /* Title color */
+  font-size: 1.5rem; /* Larger title */
+  text-align: center;
+}
+
+.card-text {
+  color: #ffffff; /* Text color */
+}
+
+.btn-danger {
+  background-color: #d9534f; /* Bootstrap danger color */
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c; /* Darken on hover */
+}
+
+.btn-success {
+  background-color: #5cb85c; /* Bootstrap success color */
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #4cae4c; /* Darken on hover */
+}
+
+/* Additional styling for better layout */
+@media (max-width: 576px) {
+  .game-details {
+    margin: 10px; /* Smaller margin on smaller screens */
+  }
+}

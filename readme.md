@@ -18,4 +18,4 @@ This is a basic MERN stack project where I am learning how to create a simple ap
 1. Clone the repository
    ```bash
    git clone <repo-url>
-  ```
+
